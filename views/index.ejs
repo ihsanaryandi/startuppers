@@ -1,0 +1,10 @@
+<%-	include('layouts/header'); %> 
+<% if (typeof hideNavbar === 'undefined') { %>
+	<%- include('layouts/navbar'); %>
+<% } %>
+<%- include('layouts/sidebar'); %>
+<div id="app">
+	<%- include(`pages/${page}`); %>
+</div>
+<%- include('layouts/modals'); %>
+<%- include('layouts/footer'); %>

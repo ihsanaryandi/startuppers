@@ -1,0 +1,103 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	color: var(--black-color);
+}
+
+a:not(.link-default) {
+	color: var(--black-color);
+}
+
+/*Navbar*/
+.nav {
+	background-color: #fff;
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+	padding: 5px 0;
+}
+
+.nav-container {
+	width: 95%;
+	max-width: var(--max-container);
+	margin: auto;
+	display: flex;
+	align-items: center;
+}
+
+.nav .brand a {
+	--opacity: 0.5;
+	font-size: 1.3rem;
+	color: rgba(0, 0, 0, var(--opacity));
+	transition: .2s;
+}
+
+.nav .brand a:hover {
+	--opacity: .8;
+}
+
+.search button {
+	--opacity: .8;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: rgba(255, 255, 255, var(--opacity));
+}
+
+.search button:hover {
+	--opacity: 1;
+}
+
+.search button:focus {
+	opacity: .8;
+}
+
+.links {
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+.links li {
+	margin: 0 10px;
+}
+
+.links .link {
+	--opacity: .5;
+	font-size: 1rem;
+	color: rgba(0, 0, 0, var(--opacity));
+}
+
+.links .link:hover {
+	--opacity: .7;
+}
+
+.links .link.hg {
+	color: var(--color2);
+	font-weight: 400;
+	opacity: .8;
+}
+
+.links .link.hg:hover {
+	opacity: 1;
+}
+
+.links .img-link {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	transition: .3s;
+}
+
+.links .img-link img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	object-fit: cover;
+	transition: .3s;
+}
+
+.links .img-link:focus img {
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+
+.dropdowns {
+	display: flex;
+	justify-content: flex-end;
+}

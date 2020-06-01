@@ -1,0 +1,32 @@
+<div class="container">
+	<div class="extra-data card" style="max-width: 400px; overflow: hidden;">
+		<h1 class="light mb-3 text-center">Daftar ke StartUppers</h1>
+		<form id="extraForm">
+			<div class="input mb-2">
+	          <input type="text" name="input" required id="name" autofocus>
+	          <label for="name">Name</label>
+	        </div>
+	        <div class="selects mb-2">
+	        	<div class="province">
+	        		<label for="province">province</label>
+          			<select name="input" id="province">
+          				<option></option>
+          			</select>
+	        	</div>
+	        </div>
+	        <div class="input mb-2">
+	          <input type="password" name="input" required id="confirmPassword">
+	          <label for="confirmPassword">Konfirmasi Password</label>
+	        </div>
+	        <div style="text-align: right;">
+		        <a href="/" class="btn simple ripple dark" style="--color: #3397f5;">Batal</a>
+		        <button class="btn ripple" style="background-color: #3397f5;" id="submitBtn">Daftar</button>
+			</div>
+		</form>
+		<div class="loader full" id="registerLoader">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+</div>

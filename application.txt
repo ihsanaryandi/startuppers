@@ -1,0 +1,13 @@
+Tujuan : Konsultasi masalah bisnis
+
+Fitur :
+	- Fitur tanya pengusaha
+	- Cari team
+	- Cari Investor
+	- Pandu Bisnis
+
+Provinsi
+https://dev.farizdotid.com/api/daerahindonesia/provinsi
+
+Kota
+https://dev.farizdotid.com/api/daerahindonesia/kota?id_provinsi=31
